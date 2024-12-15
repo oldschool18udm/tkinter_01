@@ -1,12 +1,11 @@
 import random
 import tkinter as tk
-random
 
 
 def push():
     emo =random.choice( "радоти счастья восторга удивления".split())
     deepr = random.choice("похрюкивая мяукая погавкивая ".split())
-    res = f"""Даже  {ent_animal.get()}  знает: если повторять заклинание  "{ent_spell.get()}", 
+    res = f"""Даже  {ent_animal.get()}  знает: если {ent_time.get()} повторять заклинание  "{ent_spell.get()}", 
     размахивая при этом {ent_thing2.get()}, - оно сработает! 
     И {ent_thing1.get()}, радостно {deepr}, запрыгает от {emo}, 
     а  {ent_human.get()} скажет: "{ent_wow.get()}" и побежит в магазин за  {ent_food.get()}."""

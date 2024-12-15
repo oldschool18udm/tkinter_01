@@ -2,7 +2,6 @@ import tkinter as tk
 
 
 def add_items_to_order():
-
     order = []
     for i in range(len(drinks)):
         if dv.get() == i:
@@ -24,7 +23,6 @@ def make_order():
     lab.pack()
 
 
-order = []
 window = tk.Tk()
 window.geometry('550x900+30+30')
 window.title('заказ еды')

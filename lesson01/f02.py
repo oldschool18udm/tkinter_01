@@ -5,7 +5,7 @@ import random
 def push():
     lab_number.config(text=random.randint(1, 20))
     colors = ['#6495ED', '#DE3163', '#9FE2BF', '#CCCCFF', '#FFBF00']
-    btn1.config(background=random.choice(colors))
+    btn1.config(background=random.choice(colors),)
 
 
 def foo():
